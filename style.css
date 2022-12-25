@@ -1,0 +1,207 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+.card-list {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  cursor: pointer;
+}
+button {
+  color: #ffffff;
+  background: #00bafc;
+  border-radius: 5px;
+  width: 159px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+.container2 {
+  max-width: 1300px;
+  height: 418px;
+  display: flex;
+  align-items: center;
+  /* background: #ffffff; */
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.left {
+  padding: 90px 100px;
+}
+.left p {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.right {
+  background-image: url(./img/youtube.png);
+  width: 458px;
+  height: 258px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 90px 100px;
+  margin-right: 100px;
+}
+.container3 {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.top {
+  margin-top: 56px;
+  text-align: center;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+.cards3 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 70px;
+}
+.card3 {
+  margin-top: 24px;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 25px 75px;
+}
+.card3 h2 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  color: #000000;
+}
+p {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.botton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 48px;
+  gap: 16px;
+}
+.container4 {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: o 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+.card4 {
+  padding: 40px;
+}
+.container5 {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  background: #00bafc;
+}
+.card-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 340px;
+  /* height: 250px; */
+  background: #ffffff;
+  border-radius: 5px;
+  margin-top: 16px;
+  padding: 24px 24px;
+}
+input {
+  width: 300px;
+  height: 56px;
+}
+
+select {
+  width: 300px;
+  height: 56px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.container6 {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  background: #191919;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+}
+.card-copyright {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-wrap: wrap;
+  width: 202px;
+}
+.card-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 120px;
+}
+.card-copyright p {
+  color: #fff;
+}
+.card-pages p {
+  color: #fff;
+}
+.card-media p {
+  color: #fff;
+}
